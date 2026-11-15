@@ -5,5 +5,5 @@
     }
   },
   "enabledPlugins": { "poc-tools@yassmin-poc-tools": true },
-  "permissions": { "deny": ["Read(./.env)", "Bash(git push --force:*)"] }
+  "permissions": { "deny": ["Read(./.env)"] }
 }
