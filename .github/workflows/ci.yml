@@ -7,5 +7,7 @@ permissions:
   contents: read
   packages: read
 jobs:
-  base:
-    uses: yassmin-poc/tooling/.github/workflows/ci-base.yml@feca98ae97ea3353ea6f7b179e71d83fb1566b10 # v0.1.0
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "no shared checks"
