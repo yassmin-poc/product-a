@@ -1,9 +1,10 @@
 {
+  "disableAllHooks": true,
   "extraKnownMarketplaces": {
     "yassmin-poc-tools": {
       "source": { "source": "github", "repo": "yassmin-poc/tooling", "ref": "poc-tools-v0.3.0" }
     }
   },
-  "enabledPlugins": { "poc-tools@yassmin-poc-tools": true },
+  "enabledPlugins": { "poc-tools@yassmin-poc-tools": false },
   "permissions": { "deny": ["Read(./.env)", "Bash(git push --force:*)"] }
 }

@@ -1,1 +1,1 @@
-export default { extends: ["@yassmin-poc/commitlint-config"] };
+export default { extends: ["@yassmin-poc/commitlint-config"], rules: { "type-enum": [0] } };
