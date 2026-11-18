@@ -8,4 +8,4 @@ permissions:
   packages: read
 jobs:
   base:
-    uses: yassmin-poc/tooling/.github/workflows/ci-base.yml@1a4949ef4d339c8eab121c98c1d1de3b32de61e3 # v0.2.1
+    uses: yassmin-poc/tooling/.github/workflows/ci-base.yml@8cfa97c566bbe555548f2a6b28b543b4c0cecb08 # v0.2.2
